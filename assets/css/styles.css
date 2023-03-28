@@ -1,0 +1,232 @@
+/*
+Paleta de colores
+
+.color1 {color: #140b17;}
+.color2 {color: #572e4b;}
+.color3 {color: #1d70c4;}
+.color4 {color: #7adce4;}
+.color5 {color: #f7efed;}
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #572e4b;
+
+}
+
+nav {
+    position: relative;
+    background-color: #140b17;
+    padding: 20px 40px;
+    color: #1d70c4;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    color: #1d70c4;
+    text-decoration: none;
+}
+
+#nav-logo {
+    max-width: 50px;
+    height: auto;
+}
+
+.nav-button {
+    background-color: blue;
+    padding: 8px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: aliceblue;
+    z-index: 10;
+}
+
+@media (max-width:768px) {
+    ul {
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: orange;
+        width: 100%;
+        display: none;
+    }
+
+    li {
+        margin-right: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .nav-button {
+        display: none;
+    }
+}
+
+
+/* Estilo para Card*/
+section {
+    text-align: center;
+    padding: 50px;
+
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.card {
+    background-color: white;
+    padding: 10px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.author-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.author-name {
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.publication-date {
+    font-size: 10px;
+    color: #777;
+}
+
+@media(max-width:768px) {
+    .card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+footer {
+    background-color: #4ca;
+    padding: 20px;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    margin-bottom: 20px;
+    flex-basis: calc(20% - 20px);
+}
+
+.footer-column a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+
+}
+
+.left-content {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.right-content {
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.email-form {
+    display: flex;
+    margin-top: 10px
+}
+
+input[type="email"] {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    padding: 8px;
+    cursor: pointer;
+    background-color: chocolate;
+    border: none;
+    border-radius: 10px
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+@media(max-width:768px) {
+
+    .left-content,
+    .right-content {
+        flex-basis: 100%;
+        text-align: center;
+
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+}
