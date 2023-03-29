@@ -13,18 +13,24 @@ Paleta de colores
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+    /* font-family: 'Mochiy Pop P One', sans-serif; */
 }
 
 body {
-    background-color: #572e4b;
+    background-color: #92ffed;
 
 }
 
 nav {
     position: relative;
-    background-color: #140b17;
+    background-color: #d3d3d3;
     padding: 20px 40px;
-    color: #1d70c4;
+    color: #00ccff;
+
+
+
 }
 
 .nav-container {
@@ -38,10 +44,15 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
+    align-items: center;
+    text-decoration: #1d70c4;
+
 }
 
 li {
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
 }
 
 a {
@@ -59,20 +70,21 @@ a {
     padding: 8px 18px;
     border: none;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 10px;
     color: aliceblue;
-    z-index: 10;
+    border-style: whitesmoke;
+
 }
 
 @media (max-width:768px) {
     ul {
         flex-direction: column;
-        position: absolute;
+        position: relative;
         top: 100%;
         left: 0;
-        background-color: orange;
+        /* background-color: rgb(97, 97, 97); */
         width: 100%;
-        display: none;
+
     }
 
     li {
@@ -86,6 +98,75 @@ a {
     }
 }
 
+/* Estilo para Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+
+}
+
+.left-content {
+    flex: 1;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.right-content {
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.email-form {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+input[type="email"] {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+button[type="submit"] {
+    padding: 10px 50px;
+    cursor: pointer;
+    background-color: blue;
+    color: whitesmoke;
+    border-style: whitesmoke;
+    border-radius: 10px
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+@media(max-width:768px) {
+
+    .left-content,
+    .right-content {
+        flex-basis: 100%;
+        text-align: center;
+
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+}
 
 /* Estilo para Card*/
 section {
@@ -96,12 +177,13 @@ section {
 
 h2 {
     margin-bottom: 20px;
-    font-family: 'Mochiy Pop P One', sans-serif;
+    /* font-family: 'Mochiy Pop P One', sans-serif; */
 }
 
 .card-container {
     display: flex;
     justify-content: space-between;
+
     /* flex-wrap: wrap; */
 }
 
@@ -166,67 +248,4 @@ footer {
     color: white;
     text-decoration: none;
     margin-bottom: 10px;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    flex-wrap: wrap;
-
-}
-
-.left-content {
-    flex: 1;
-    text-align: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.right-content {
-    flex: 1;
-    text-align: right;
-    margin-right: 20px;
-}
-
-.email-form {
-    display: flex;
-    margin-top: 10px
-}
-
-input[type="email"] {
-    padding: 8px;
-    margin-right: 10px;
-}
-
-button[type="submit"] {
-    padding: 8px;
-    cursor: pointer;
-    background-color: chocolate;
-    border: none;
-    border-radius: 10px
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-
-
-@media(max-width:768px) {
-
-    .left-content,
-    .right-content {
-        flex-basis: 100%;
-        text-align: center;
-
-    }
-
-    img {
-        display: block;
-        margin: 0 auto;
-    }
-
 }
