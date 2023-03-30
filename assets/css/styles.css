@@ -13,7 +13,7 @@ Paleta de colores
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
 
     /* font-family: 'Mochiy Pop P One', sans-serif; */
 }
@@ -229,17 +229,22 @@ footer {
     background-color: #4ca;
     padding: 20px;
     color: white;
+    justify-self: flex-end;
+
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
 .footer-column {
     margin-bottom: 20px;
     flex-basis: calc(20% - 20px);
+
+
 }
 
 .footer-column a {
@@ -247,4 +252,12 @@ footer {
     color: white;
     text-decoration: none;
     margin-bottom: 10px;
+
+}
+
+container-copy {
+    display: block;
+    background-color: whitesmoke;
+    justify-items: center;
+    align-items: center;
 }
