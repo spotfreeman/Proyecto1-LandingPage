@@ -20,17 +20,13 @@ Paleta de colores
 
 body {
     background-color: #92ffed;
-
 }
 
 nav {
     position: relative;
-    background-color: #d3d3d3;
+    background-color: #3d3d3d;
     padding: 20px 40px;
     color: #00ccff;
-
-
-
 }
 
 .nav-container {
@@ -52,7 +48,6 @@ ul {
 li {
     margin-right: 10px;
     margin-bottom: 10px;
-
 }
 
 a {
@@ -67,7 +62,7 @@ a {
 
 .nav-button {
     background-color: blue;
-    padding: 8px 18px;
+    padding: 10px 40px;
     border: none;
     cursor: pointer;
     border-radius: 10px;
@@ -100,6 +95,7 @@ a {
 
 /* Estilo para Header*/
 header {
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,6 +105,7 @@ header {
 }
 
 .left-content {
+    color: whitesmoke;
     flex: 1;
     text-align: center;
     margin-right: 20px;
@@ -170,6 +167,7 @@ img {
 
 /* Estilo para Card*/
 section {
+    background-color: whitesmoke;
     text-align: center;
     padding: 50px;
 
@@ -189,6 +187,7 @@ h2 {
 
 .card {
     background-color: white;
+    border-radius: 10px;
     padding: 10px;
     width: 30%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
