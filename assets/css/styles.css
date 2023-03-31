@@ -14,8 +14,6 @@ Paleta de colores
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-
-    /* font-family: 'Mochiy Pop P One', sans-serif; */
 }
 
 body {
@@ -41,6 +39,7 @@ ul {
     padding: 0;
     display: flex;
     align-items: center;
+    justify-items: center;
     text-decoration: #1d70c4;
 
 }
@@ -99,10 +98,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
     flex-wrap: wrap;
 
 }
+
+
 
 .left-content {
     color: whitesmoke;
@@ -121,6 +122,7 @@ header {
 .email-form {
     display: flex;
     margin-top: 10px;
+    justify-self: auto;
     align-items: center;
 }
 
@@ -178,6 +180,11 @@ h2 {
     /* font-family: 'Mochiy Pop P One', sans-serif; */
 }
 
+h3 {
+    padding: 10px;
+    align-items: start;
+}
+
 .card-container {
     display: flex;
     justify-content: space-between;
@@ -229,7 +236,9 @@ footer {
     background-color: #4ca;
     padding: 20px;
     color: white;
-    justify-self: flex-end;
+    justify-self: center;
+    align-items: center;
+    margin: 0;
 
 }
 
@@ -243,12 +252,11 @@ footer {
 .footer-column {
     margin-bottom: 20px;
     flex-basis: calc(20% - 20px);
-
-
 }
 
 .footer-column a {
-    display: block;
+    display: flex;
+    justify-self: center;
     color: white;
     text-decoration: none;
     margin-bottom: 10px;
@@ -256,7 +264,7 @@ footer {
 }
 
 container-copy {
-    display: block;
+    display: flex;
     background-color: whitesmoke;
     justify-items: center;
     align-items: center;
