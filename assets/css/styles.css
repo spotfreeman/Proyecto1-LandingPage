@@ -239,14 +239,12 @@ footer {
     justify-self: center;
     align-items: center;
     margin: 0;
-
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 .footer-column {
@@ -260,7 +258,6 @@ footer {
     color: white;
     text-decoration: none;
     margin-bottom: 10px;
-
 }
 
 container-copy {
