@@ -9,18 +9,11 @@ Fecha limite del 16 de abril del 2023.
 
 ## Table of Contents
 
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
-
-
-
-## Tabla de Contenidos
-1. Proyecto de Landing Page para Bootcamp Fullstack UDD.
-2. Demostrar los conocimientos en las primeras 4 clases.
-3. Tecnologias aplicadas HTML5, CSS, Git
+1. [General Info](#Informacion-en-General)
+2. [Technologies](#Tecnologias)
+3. [Installation](#Instalacion)
+4. [Collaboration](#Collaboracion)
+5. [FAQs](#FAQ)
 
 ### 1. Informacion en General
 
@@ -29,6 +22,11 @@ Fecha limite del 16 de abril del 2023.
 
 
 ### 2. Tecnologias 
+
+HTML
+CSS
+Bootstrap
+Git
 
 
 ### 3. Instalacion
@@ -41,8 +39,3 @@ Profesor UDD : Brayan Diaz C. - Github : brayandiazc
 Partner : Carlos Oyarzun B. - Github : Galthar
 
 ### 5. FAQ
-
-
-
-
-
