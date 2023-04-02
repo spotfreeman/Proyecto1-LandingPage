@@ -31,7 +31,7 @@ ul {
     display: flex;
     align-items: center;
     justify-items: center;
-    text-decoration: #51a8ff;
+    text-decoration: #ffffff;
 
 }
 
@@ -41,10 +41,14 @@ li {
 }
 
 a {
-    color: #7bbdff;
+    color: #ffffff;
     text-decoration: none;
     text-decoration-style: double;
 
+}
+
+a:hover {
+    color: rgb(255, 136, 0);
 }
 
 #nav-logo {
@@ -53,14 +57,18 @@ a {
 }
 
 .nav-button {
-    background-color: blue;
+    background-color: rgb(227, 227, 227);
     padding: 10px 40px;
     border: none;
     cursor: pointer;
     border-radius: 10px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     border-style: whitesmoke;
 
+}
+
+.nav-button:hover {
+    background-color: rgb(148, 148, 148);
 }
 
 @media (max-width:768px) {
@@ -130,10 +138,14 @@ button[type="submit"] {
     padding: 10px 50px;
     margin: 10px 10px 20px 20px;
     cursor: pointer;
-    background-color: blue;
-    color: whitesmoke;
+    background-color: rgb(227, 227, 227);
+    color: rgb(0, 0, 0);
     border-style: whitesmoke;
     border-radius: 10px
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(227, 227, 227);
 }
 
 img {
@@ -148,7 +160,6 @@ img {
     .right-content {
         flex-basis: 100%;
         text-align: center;
-
     }
 
     img {
@@ -158,6 +169,8 @@ img {
 
     .card-container {
         flex-direction: column;
+        align-items: center;
+        padding: 10px;
     }
 }
 
