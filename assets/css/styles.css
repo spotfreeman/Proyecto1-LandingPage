@@ -1,18 +1,7 @@
-/*
-Paleta de colores
-
-.color1 {color: #140b17;}
-.color2 {color: #572e4b;}
-.color3 {color: #1d70c4;}
-.color4 {color: #7adce4;}
-.color5 {color: #f7efed;}
-
-*/
-
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -24,7 +13,7 @@ nav {
     position: relative;
     background-color: #3d3d3d;
     padding: 20px 40px;
-    color: #00ccff;
+    color: #40d9ff;
 }
 
 .nav-container {
@@ -40,7 +29,7 @@ ul {
     display: flex;
     align-items: center;
     justify-items: center;
-    text-decoration: #1d70c4;
+    text-decoration: #51a8ff;
 
 }
 
@@ -50,8 +39,10 @@ li {
 }
 
 a {
-    color: #1d70c4;
+    color: #7bbdff;
     text-decoration: none;
+    text-decoration-style: double;
+
 }
 
 #nav-logo {
@@ -122,19 +113,20 @@ header {
 .email-form {
     display: flex;
     margin-top: 10px;
-    justify-self: auto;
+    justify-content: center;
     align-items: center;
 }
 
 input[type="email"] {
-    padding: 8px;
-    margin-right: 10px;
+    padding: 10px 50px;
+    margin: 10px 10px 20px 20px;
     border-radius: 10px;
 
 }
 
 button[type="submit"] {
     padding: 10px 50px;
+    margin: 10px 10px 20px 20px;
     cursor: pointer;
     background-color: blue;
     color: whitesmoke;
@@ -238,7 +230,11 @@ footer {
     color: white;
     justify-self: center;
     align-items: center;
+    position: static;
     margin: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .footer-container {
@@ -265,4 +261,12 @@ container-copy {
     background-color: whitesmoke;
     justify-items: center;
     align-items: center;
+}
+
+svg {
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
 }
