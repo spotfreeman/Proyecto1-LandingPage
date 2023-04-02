@@ -1,4 +1,5 @@
-* {
+*,
+html {
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
@@ -7,6 +8,7 @@
 
 body {
     background-color: #92ffed;
+
 }
 
 nav {
@@ -161,10 +163,15 @@ img {
 
 /* Estilo para Card*/
 section {
-    background-color: whitesmoke;
-    text-align: center;
-    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
+}
+
+.caja {
+    text-align: center;
+    padding: 30px;
 }
 
 h2 {
@@ -225,22 +232,23 @@ h3 {
 }
 
 footer {
-    background-color: #4ca;
-    padding: 20px;
+    background-color: rgb(45, 255, 224);
     color: white;
+    display: flex;
     justify-self: center;
     align-items: center;
     position: static;
-    margin: 0;
-    bottom: 0;
-    left: 0;
+    margin: 0px;
     width: 100%;
 }
+
+/* Footer */
 
 .footer-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 .footer-column {
@@ -256,9 +264,8 @@ footer {
     margin-bottom: 10px;
 }
 
-container-copy {
+.container-copy {
     display: flex;
-    background-color: whitesmoke;
     justify-items: center;
     align-items: center;
 }
@@ -268,5 +275,4 @@ svg {
     justify-content: center;
     align-items: center;
     margin: 10px;
-
 }
