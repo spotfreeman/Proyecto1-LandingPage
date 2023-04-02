@@ -1,9 +1,12 @@
 # Proyecto1-LandingPage
-![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+![Badge en Desarollo](https://img.shields.io/badge/STATUS-PARA%20REVISION-green)
+
+<a href="https://spotfreeman.github.io/Proyecto1-LandingPage/">https://spotfreeman.github.io/Proyecto1-LandingPage/</a>
+
 
 Proyecto Landing Page requerida para el cumplimiento de metas del Bootcamp FullStack de UDD, demostrando las tecnologías aprendidas durante las primeras 4 clases que corresponden a HTML5, CSS, Bootstrap, Git, Github, Github Pages.
 
-Fecha límite entrga : 16 de abril del 2023.
+Fecha límite entrega : 16 de abril del 2023.
 
 ## :hammer: Tecnologías utilizadas
 
