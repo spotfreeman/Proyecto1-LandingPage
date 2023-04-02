@@ -144,8 +144,9 @@ button[type="submit"] {
     border-radius: 10px
 }
 
-button[type="submit"]:hover {
-    background-color: rgb(227, 227, 227);
+button:hover {
+    background-color: rgb(148, 148, 148);
+
 }
 
 img {
@@ -246,29 +247,35 @@ h3 {
     }
 }
 
+
+/* Footer */
+
 footer {
     background-color: rgb(255, 136, 0);
     color: white;
     display: flex;
-    justify-self: center;
+    justify-content: space-around;
     align-items: center;
-    position: static;
+    position: relative;
     margin: 0px;
     width: 100%;
 }
 
-/* Footer */
-
 .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
+    width: 100%;
 }
 
 .footer-column {
     margin-bottom: 20px;
-    flex-basis: calc(20% - 20px);
+    /* flex-basis: calc(30% - 20px); */
+    display: grid;
+    grid-column: auto;
+    padding: 30px;
+
 }
 
 .footer-column a {
@@ -276,14 +283,9 @@ footer {
     justify-self: center;
     color: white;
     text-decoration: none;
-    margin-bottom: 10px;
+
 }
 
-.container-copy {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-}
 
 svg {
     color: whitesmoke;
