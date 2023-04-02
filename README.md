@@ -22,6 +22,9 @@ Puedes descargarme para practicar. EnJoy!
 Profesor UDD : Brayan Diaz C. - Github : brayandiazc
 Partner : Carlos Oyarzun B. - Github : Galthar
 
+<img src="https://avatars.githubusercontent.com/u/7065934?v=4" alt="" width="40" height="40">
+<img src="https://avatars.githubusercontent.com/u/103672208?v=4" alt="" width="40" height="40">
+
 ## Contactame por
 
 <a href="https://www.linkedin.com/in/ra%C3%BAl-oyarz%C3%BAn-becerra-6430b171/"> Linkedin </a>
