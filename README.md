@@ -1,5 +1,5 @@
 # Proyecto1-LandingPage
-![Badge en Desarollo](https://img.shields.io/badge/STATUS-PARA%20REVISION-green)
+![Badge en Desarollo](https://img.shields.io/badge/STATUS-Aprobado-green)
 
 <a href="https://spotfreeman.github.io/Proyecto1-LandingPage/">https://spotfreeman.github.io/Proyecto1-LandingPage/</a>
 
